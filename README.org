@@ -17,16 +17,16 @@ primary more vertical real estate. I wrote this to hide my clojure REPL.
     ;; You can set this value higher if you want the secondary window to shrink
     ;; less.
     (setq window-min-height 0)
-    ;; Bind the function hide-show-window to something.
+    ;; Bind the function toggle-window-hide-show-window to something.
     ;; [f9] is an example. I personally use ,-h.
-    (global-set-key [f9] 'toggle-window/hide-show-window)
+    (global-set-key [f9] 'toggle-window-hide-show-window)
 #+end_src
 
 * Usage
 
 In the window you want to toggle between half-height and full-height, press
 =[f9]= or whatever you decided you wanted your binding to be. Alternatively,
-hit =M-x toggle-window/hide-show-window=.
+hit =M-x toggle-window-hide-show-window=.
 
 * License
 

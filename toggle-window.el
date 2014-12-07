@@ -20,16 +20,16 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-(defun toggle-window/max-window-height ()
+(defun toggle-window-max-window-height ()
   "Expand current window to max height."
   (interactive)
   (enlarge-window (frame-height)))
 
-(defun toggle-window/hide-show-window ()
+(defun toggle-window-hide-show-window ()
   "Toggles showing current window at half frame or full frame height."
   (interactive)
   (if (<= (window-height) (/ (frame-height) 2))
-	  (toggle-window/max-window-height)
+	  (toggle-window-max-window-height)
 	(balance-windows)))
 
 (provide 'toggle-window)
