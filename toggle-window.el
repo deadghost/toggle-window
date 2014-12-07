@@ -2,6 +2,8 @@
 
 ;; Copyright © 2014 Kenny Liu
 ;; Author: Kenny Liu
+;; URL: https://github.com/deadghost/toggle-window
+;; Git-Repository: git://github.com/deadghost/toggle-window.git
 ;; Created: 2014-12-06
 ;; Version: 0.1.0
 ;; Keywords: hide window
